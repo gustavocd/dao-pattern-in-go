@@ -2,8 +2,9 @@ package utilities
 
 import (
 	"encoding/json"
-	"github.com/gustavocd/dao-pattern/models"
 	"os"
+
+	"github.com/gustavocd/dao-pattern-in-go/models"
 )
 
 func GetConfiguration() (models.Configuration, error) {

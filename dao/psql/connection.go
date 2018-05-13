@@ -2,10 +2,11 @@ package psql
 
 import (
 	"database/sql"
-	"github.com/gustavocd/dao-pattern/utilities"
-	_ "github.com/lib/pq"
-	"log"
 	"fmt"
+	"log"
+
+	"github.com/gustavocd/dao-pattern-in-go/utilities"
+	_ "github.com/lib/pq"
 )
 
 func get() *sql.DB {

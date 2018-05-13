@@ -3,9 +3,10 @@ package mysql
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/gustavocd/dao-pattern/utilities"
 	"log"
+
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/gustavocd/dao-pattern-in-go/utilities"
 )
 
 func get() *sql.DB {
