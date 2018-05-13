@@ -1,6 +1,6 @@
 package mysql
 
-import "github.com/gustavocd/dao-pattern/models"
+import "github.com/gustavocd/dao-pattern-in-go/models"
 
 type UserImplMysql struct {
 }

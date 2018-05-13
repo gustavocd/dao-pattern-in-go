@@ -1,6 +1,6 @@
 package interfaces
 
-import "github.com/gustavocd/dao-pattern/models"
+import "github.com/gustavocd/dao-pattern-in-go/models"
 
 type UserDao interface {
 	Create(u *models.User) error

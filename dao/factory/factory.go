@@ -1,9 +1,10 @@
 package factory
 
 import (
-	"github.com/gustavocd/dao-pattern/dao/interfaces"
-	"github.com/gustavocd/dao-pattern/dao/mysql"
 	"log"
+
+	"github.com/gustavocd/dao-pattern-in-go/dao/interfaces"
+	"github.com/gustavocd/dao-pattern-in-go/dao/mysql"
 )
 
 func FactoryDao(e string) interfaces.UserDao {

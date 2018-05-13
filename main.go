@@ -1,14 +1,15 @@
 package main
 
 import (
-	"github.com/gustavocd/dao-pattern/utilities"
-	"log"
-	"github.com/gustavocd/dao-pattern/dao/factory"
-	"github.com/gustavocd/dao-pattern/models"
 	"fmt"
+	"log"
+
+	"github.com/gustavocd/dao-pattern-in-go/dao/factory"
+	"github.com/gustavocd/dao-pattern-in-go/models"
+	"github.com/gustavocd/dao-pattern-in-go/utilities"
 )
 
-func main()  {
+func main() {
 	config, err := utilities.GetConfiguration()
 	if err != nil {
 		log.Fatal(err)
@@ -27,10 +28,9 @@ func main()  {
 
 	err = userDao.Create(&user)
 
-	if err != nil{
+	if err != nil {
 		log.Fatal(err)
 		return
 	}
-
 
 }
